@@ -1,0 +1,75 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.929, 33.424]
+      },
+      "properties": {
+        "id": 1,
+        "image_url": "data/-0bN4XFOGgw_002.jpg",
+        "audio_url": "data/-0bN4XFOGgw_002.wav",
+        "perception": {
+          "safety": 8,
+          "vibrancy": 9,
+          "calmness": 5
+        },
+        "description": "Downtown Tempe, Arizona, Daytime",
+        "views": [
+          {
+            "name": "Street view",
+            "position": [-111.929, 33.4235, 2],
+            "orientation": { "heading": 0, "pitch": 0 }
+          },
+          {
+            "name": "Window view-5th floor",
+            "position": [-111.9293, 33.4238, 550],
+            "orientation": { "heading": 30, "pitch": 0 }
+          },
+          {
+            "name": "Window view-20th floor",
+            "position": [-111.9293, 33.4238, 1000],
+            "orientation": { "heading": 30, "pitch": 0 }
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.940, 33.418]
+      },
+      "properties": {
+        "id": 2,
+        "image_url": "data/-0bN4XFOGgw_006.jpg",
+        "audio_url": "data/-0bN4XFOGgw_006.wav",
+        "perception": {
+          "safety": 6,
+          "vibrancy": 5,
+          "calmness": 8
+        },
+        "description": "Tempe Park, Arizona, Daytime",
+        "views": [
+          {
+            "name": "Street view",
+            "position": [-111.940, 33.418, 2],
+            "orientation": { "heading": 0, "pitch": 0 }
+          },
+          {
+            "name": "Window view-5th floor",
+            "position": [-111.9403, 33.4183, 500],
+            "orientation": { "heading": 30, "pitch": 0 }
+          },
+          {
+            "name": "Window view-20th floor",
+            "position": [-111.9403, 33.4183, 500],
+            "orientation": { "heading": 30, "pitch": 0 }
+          }
+        ]
+      }
+    }
+  ]
+}

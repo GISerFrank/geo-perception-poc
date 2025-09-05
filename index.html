@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-g">
+    <title>3D Geo-Perception Platform (Cesium PoC)</title>
+    <script src="https://cesium.com/downloads/cesiumjs/releases/1.131/Build/Cesium/Cesium.js"></script>
+    <link href="https://cesium.com/downloads/cesiumjs/releases/1.131/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="cesiumContainer"></div> 
+    
+    <div id='info-panel' class='hidden'>
+        <h3 id='info-description'></h3>
+        <img id='info-image' src='' alt='Street View Image' />
+        <div id="info-views"></div>
+        <div id='info-audio-container'>
+            <audio id='info-audio' controls></audio>
+        </div>
+        
+        <div id='info-perception'></div>
+    </div>
+
+    <script src="config.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
